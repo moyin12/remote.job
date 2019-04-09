@@ -175,8 +175,19 @@ input{
 .main-2{
     margin-left: 10rem;
     margin-right: 2rem;
+    /* position: relative; */
 }
-.job-role-cont{
+.abs{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.job-role-cont-1{
+    position: relative;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+.job-role-cont-2{
     border: 1px solid rgba(17, 20, 76, 0.25);
     border-radius: 5px;
     width: 367px;
@@ -195,6 +206,8 @@ input{
     justify-content: space-between;
     padding: 1.5rem;
     box-shadow: 0 18px 24px -6px rgba(17, 20, 76, 0.1);
+    background-color: white;
+    z-index: 1;
 }
 .footer-text{
     color: white;
@@ -223,6 +236,5 @@ input{
 }
 
 .copyright-text{
-    /* font-weight: bold; */
     font-size: 14px;
 }
