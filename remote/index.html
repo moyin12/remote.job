@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Remote job website.</title>
@@ -11,34 +12,36 @@
 <body>
   <header>
     <nav>
-        <h1>logo</h1>
-        <ul>
+        <img src="assets/logo.svg" alt="">
+        <ul class="menu-bar">
             <li>
                 <a href="#">Register</a>
             </li>
             <li>
-                <a href="#">Become Agent</a>
+                <a href="#" class="agent-button">Become Agent</a>
             </li>
         </ul>
     </nav>
-    <section>
+    <section class="welcome-cont-svg">
         <!-- welcome text container and input -->
-        <div>
-            <p>
+        <div class="welcome-cont">
+            <p class="mb-0 base-color">
                 The remote life
             </p>
-            <h1>
+            <h1 class="base-color mt-1h mb-1 h1-cont">
                 Subscribe to recieve remote developer jobs
             </h1>
-            <p>
+            <p class="text">
                 Built for africa and for africa. Let us help you get that dream remote job you’re perfect for
             </p>
             <!-- input container -->
-            <div>
-                <input type="text" placeholder="Enter email address">
-                <button>
-                    Get Started
-                </button>
+            <div class="center-cont">
+                <div class="input-cont"> 
+                    <input type="text" placeholder="Enter email address">
+                    <button class="button">
+                        Get Started
+                    </button>
+                </div>
             </div>
         </div>
         <!-- svg image -->
@@ -48,30 +51,37 @@
     </section>
   </header>  
   <main>
-      <section>
-          <h1>
+      <section class="pay-cont">
+          <h1 class="base-color">
             Pay an agent to apply 
           </h1>
           <p>
             Secure the job faster and easier. Let an agent help you apply to get more probability of sucess
           </p>
       </section>
-      <section>
-          <h1>
+      <section class="main-2">
+          <h1 class="base-color txt-c mb-3 mt-4">
             Job Postings
           </h1>
-          <p>
-            Filter
-          </p>
-          <div>
-              <input type="text" placeholder="Select job role">
-              <span>
-                  <img src="assets/down.svg" alt="">
-              </span>
-          </div>
-          <article>
+          <article class="d-flx j-sb">
+                <div class="d-flx al-c">
+                    <p class="base-color f-w mr-h">
+                        Filter
+                    </p>
+                    <div class="job-role-cont">
+                        <input type="text" placeholder="Select job role">
+                        <span>
+                            <img src="assets/down.svg" alt="">
+                        </span>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/dots.svg" alt="">
+                </div>
+          </article>
+          <article class="grid-card mr-4">
               <!-- 1 -->
-              <div>
+              <div class="card">
                  <img src="assets/microsoft.svg" alt=""> 
                  <p>
                     Senior Backend Developer
@@ -84,7 +94,7 @@
                  </p>
               </div>
               <!-- 2 -->
-              <div>
+              <div class="card">
                 <img src="assets/microsoft.svg" alt=""> 
                 <p>
                     Frontend Developer
@@ -97,7 +107,7 @@
                 </p>
               </div>
               <!-- 3 -->
-              <div>
+              <div class="card">
                 <img src="assets/facebook.svg" alt=""> 
                 <p>
                     Senior Backend Developer
@@ -110,7 +120,7 @@
                 </p>
               </div>
               <!-- 4 -->
-              <div>
+              <div class="card">
                 <img src="assets/microsoft.svg" alt=""> 
                 <p>
                     Dev ops engineer
@@ -123,7 +133,7 @@
                 </p>
               </div>
               <!-- 5 -->
-              <div>
+              <div class="card">
                 <img src="assets/lyft.svg" alt=""> 
                 <p>
                     Senior Backend Developer
@@ -136,7 +146,7 @@
                 </p>
               </div>
               <!-- 6 -->
-              <div>
+              <div class="card">
                 <img src="assets/microsoft.svg" alt=""> 
                 <p>
                     Senior Backend Developer
@@ -149,7 +159,7 @@
                 </p>
               </div>
               <!-- 7 -->
-              <div>
+              <div class="card">
                 <img src="assets/microsoft.svg" alt=""> 
                 <p>
                     Senior Backend Developer
@@ -162,7 +172,7 @@
                 </p>
               </div>
               <!-- 8 -->
-               <div>
+               <div class="card">
                 <img src="assets/microsoft.svg" alt=""> 
                 <p>
                     Senior Backend Developer
@@ -175,7 +185,7 @@
                 </p>
                </div>
                <!-- 9 -->
-               <div>
+               <div class="card">
                     <img src="assets/microsoft.svg" alt=""> 
                     <p>
                         Senior Backend Developer
@@ -188,7 +198,7 @@
                     </p>
                </div>
                <!-- 10 -->
-               <div>
+               <div class="card">
                     <img src="assets/microsoft.svg" alt=""> 
                     <p>
                         Senior Backend Developer
@@ -201,7 +211,7 @@
                     </p>
                </div>
                <!-- 11 -->
-               <div>
+               <div class="card">
                     <img src="assets/microsoft.svg" alt=""> 
                     <p>
                         Senior Backend Developer
@@ -214,7 +224,7 @@
                     </p>
                </div>
                <!-- 12 -->
-               <div>
+               <div class="card">
                     <img src="assets/microsoft.svg" alt=""> 
                     <p>
                         Senior Backend Developer
@@ -227,7 +237,7 @@
                     </p>
                </div>
                <!-- 13 -->
-               <div>
+               <div class="card">
                     <img src="assets/microsoft.svg" alt=""> 
                     <p>
                         Senior Backend Developer
@@ -240,7 +250,7 @@
                     </p>
                </div>
                <!-- 14 -->
-               <div>
+               <div class="card">
                     <img src="assets/microsoft.svg" alt=""> 
                     <p>
                         Senior Backend Developer
@@ -253,7 +263,7 @@
                     </p>
                </div>
                <!-- 15 -->
-               <div>
+               <div class="card">
                     <img src="assets/microsoft.svg" alt=""> 
                     <p>
                         Senior Backend Developer
@@ -266,7 +276,7 @@
                     </p>
                </div>
                <!-- 16 -->
-               <div>
+               <div class="card">
                     <img src="assets/microsoft.svg" alt=""> 
                     <p>
                         Senior Backend Developer
@@ -279,7 +289,7 @@
                     </p>
                </div>
                <!-- 17 -->
-               <div>
+               <div class="card">
                     <img src="assets/microsoft.svg" alt=""> 
                     <p>
                         Senior Backend Developer
@@ -292,7 +302,7 @@
                     </p>
                </div>
                <!-- 18 -->
-               <div>
+               <div class="card">
                     <img src="assets/microsoft.svg" alt=""> 
                     <p>
                         Senior Backend Developer
@@ -305,7 +315,7 @@
                     </p>
                </div>
           </article>
-          <p>
+          <p class="txt-c base-color my-2">
               Load more listings 
               <span>
                 <img src="assets/down.svg" alt="">
@@ -314,54 +324,61 @@
       </section>
   </main>
   <footer>
-      <div>
-          <p>
-              COMPANY
-          </p>
-          <ul>
-              <li>
-                  About us
-              </li>
-              <li>
-                  Contact us
-              </li>
-              <li>
-                  Post a job
-              </li>
-          </ul>
-      </div>
-      <div>
-          <p>
-              QUICKLINKS
-          </p>
-          <ul>
-              <li>
-                  Register
-              </li>
-              <li>
-                  Apply for jobs
-              </li>
-              <li>
-                  Become an agent
-              </li>
-          </ul>
-      </div>
-      <div>
-          <p>
-              FOLLOW US
-          </p>
-          <ul>
-              <li>
-                  <img src="" alt="">
-              </li>
-              <li>
-                  <img src="" alt="">
-              </li>
-              <li>
-                  <img src="" alt="">
-              </li>
-          </ul>
-      </div>
+      <section class="footer-links-cont">
+          <div class="footer-links">
+            <div>
+                <p class="footer-text">
+                    COMPANY
+                </p>
+                <ul>
+                    <li>
+                        <a href="" class="footer-text">About us</a>
+                    </li>
+                    <li>
+                        <a href="" class="footer-text">Contact us</a>
+                    </li>
+                    <li>
+                        <a href="" class="footer-text">Post a job</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p class="footer-text">
+                    QUICKLINKS
+                </p>
+                <ul>
+                    <li>
+                        <a href="" class="footer-text">Register</a> 
+                    </li>
+                    <li>
+                        <a href="" class="footer-text">Apply for jobs</a> 
+                    </li>
+                    <li>
+                        <a href="" class="footer-text">Become an agent</a> 
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p class="footer-text">
+                    FOLLOW US
+                </p>
+                <ul class="d-flx j-sb">
+                    <li>
+                        <img src="assets/fb.svg" alt="">
+                    </li>
+                    <li>
+                        <img src="assets/twitter.svg" alt="">
+                    </li>
+                    <li>
+                        <img src="assets/instagram.svg" alt="">
+                    </li>
+                </ul>
+            </div>
+          </div>
+      </section>
+      <section class="copyright">
+        <p class="footer-text copyright-text">Copyright 2019. All rights reserved`</p>
+      </section>
   </footer>
 </body>
 </html>
