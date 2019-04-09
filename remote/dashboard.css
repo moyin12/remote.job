@@ -1,0 +1,160 @@
+html{
+    font-size: 18px;
+}
+fieldset{
+    border: none;
+}
+#active{
+    width: 250px;
+    border-radius: 100px;
+    background-color:  #858AF4;
+    padding: 0.7rem;
+}
+
+h2{
+    color: #11144C;
+    text-align: center;
+}
+
+/* variables */
+.d-flx{
+    display: flex;
+}
+.j-c-sb{
+    justify-content: space-between;
+}
+.j-c-sa{
+    justify-content: space-around;
+}
+.txt-c{
+    text-align: center;
+}
+.pl-0{
+    padding-left: 0;
+}
+.mt-h{
+    margin-top: 0.5rem;
+}
+.mt-1{
+    margin-top: 1rem;
+}
+.mt-2{
+    margin-top: 2rem;
+}
+.mt-3{
+    margin-top: 3rem;
+}
+.mb-h{
+    margin-bottom: 0.5rem;
+}
+.mb-1{
+    margin-bottom: 1rem;
+}
+.mb-2{
+    margin-bottom: 2rem;
+}
+.mb-3{
+    margin-bottom: 3rem;
+}
+.mb-6{
+    margin-bottom: 6rem;
+}
+
+.sidenav{
+    height: 100%;
+    width: 286px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #11144C;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav li{
+    list-style: none;
+}
+
+.sidenav a{
+    text-decoration: none;
+    color: white;
+}
+
+.sidenav a:hover, .sidenav a:focus, .sidenav a:active{
+    width: 250px;
+    border-radius: 100px;
+    background-color:  #858AF4;
+    padding: 0.7rem;
+}
+
+label{
+    color: black;
+    font-size: 18px;
+}
+
+input, label{
+    display: block;
+}
+
+.main-content{
+    margin-left: 286px;
+    max-width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    margin: 0 auto;
+}
+
+.form-1-label{
+    width: 100%
+}
+
+.form-1-input{
+    width: 600px;
+    border: 1px solid #6C63FF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 40px;
+    padding-left: 0.5rem;
+}
+.form-1-input:focus{
+    outline: none;
+}
+
+.form-2-input{
+    width: 290px;
+    border: 1px solid #6C63FF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 40px;
+    padding-left: 0.5rem;
+}
+
+.form-2-input:focus{
+    outline: none;
+}
+button{
+    width: 600px;
+    height: 40px;
+    border: none;
+    background-color: #11144C;
+    color: white;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 600px;
+    resize: none;
+    border: 1px solid #6C63FF;
+    border-radius: 5px;
+    overflow: auto;
+    outline: none;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+}
+.form-3{
+    width: 300px;
+}

@@ -238,3 +238,28 @@ input{
 .copyright-text{
     font-size: 14px;
 }
+
+/* media queries */
+@media only screen and (max-width: 450px){
+    .menu-bar{
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    .logo-svg{
+        padding: 0 7rem 0 2rem;
+    }
+    .welcome-cont{
+        margin-left: 2rem;
+    }
+}
+@media only screen and (max-width: 768px){
+    .head-svg{
+        display: none;
+    }
+    .welcome-cont{
+        /* text-align: center; */
+        margin-left: 5rem;
+        /* margin: 0 auto; */
+    }
+}

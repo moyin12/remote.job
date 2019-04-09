@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="dashboard.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Document</title>
+</head>
+<body>
+    <section class="sidenav txt-c">
+        <img src="assets/logo2.svg" alt="" class="mb-6 mt-3">
+        <ul class="pl-0">
+            <li class="mb-2">
+                <a href="" id="active">Post New Job</a>
+            </li>
+            <li class="mb-2">
+                <a href="">Manage Jobs</a>
+            </li>
+            <li class="mb-2">
+                <a href="">Suscribers</a>
+            </li>
+        </ul>
+    </section>
+    <section class="main-content">
+        <div>
+            <h2 class="mb-3">Create Job Post</h2>
+            <form action="">
+                <div class="form-1 mb-h">
+                    <label for="" class="form-1-label mb-h">Advert Header</label>
+                    <input type="text" class="form-1-input mb-h">
+                </div>
+                <div class="d-flx j-c-sb form-2 mb-h">
+                    <div>
+                        <label for="" class="mb-h">Company name</label>
+                        <input type="text" placeholder="Enter company name" class="form-2-input mb-h">
+                    </div>
+                    <div>
+                        <label for="" class="mb-h">Job titles</label>
+                        <input type="text" placeholder="Job title e.g “UI/UX Designer”" class="form-2-input mb-h">
+                    </div>
+                </div>
+                <div class="mb-h">
+                    <label for="" class="mb-h">Job post link</label>
+                    <input type="text" class="form-1-input mb-h" placeholder="Job post url  e.g  “www.wearehiringremotedevs.com/leaddeveloper/post_200”">
+                </div>
+                <div class="mb-h">
+                    <label for="" class="mb-h">Description of job</label>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Role description and responsibilities" class="mb-h"></textarea>
+                </div>
+                <div class="mb-h">
+                    <label for="" class="mb-h">Job category</label>
+                    <input type="text" placeholder="Category e.g “Designer”, “Developer”, “Product”" class="form-1-input mb-1">
+                </div>
+                <div class="mb-h">
+                    <label for="" class="mb-h">Job pay range</label>
+                    <div class="d-flx j-c-sb mb-h">
+                        <input type="number" placeholder="minimum amount" class="form-2-input mb-h">
+                        <input type="number" placeholder="maximum amount" class="form-2-input mb-h">
+                    </div>
+                </div>
+                <div class="mb-h">
+                    <label for="" class="mb-h">Employer Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email Address" class="form-1-input mb-h">
+                </div>
+                <div class="d-flx j-c-sb form-3 mb-h mt-3">
+                    <fieldset>
+                        <legend class="mb-1">Career level</legend>
+                        <div class="d-flx mb-h">
+                            <input type="checkbox">
+                            <label for="">Entry Level</label>
+                        </div>
+                        <div class="d-flx mb-h">
+                            <input type="checkbox">
+                            <label for="">Intermediate</label>
+                        </div>
+                        <div class="d-flx mb-h">
+                            <input type="checkbox">
+                            <label for="">Experienced</label>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend class="mb-1">Location</legend>
+                        <div class="d-flx mb-h">
+                            <input type="radio" name="location" id="nigeria">
+                            <label for="">Nigeria only</label>
+                        </div>
+                        <div class="d-flx mb-h">
+                            <input type="radio" name="location" id="others">
+                            <label for="">Anywhere</label>
+                        </div>
+                    </fieldset>
+                </div>  
+                <button class="mt-2 mb-2">Post Job</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
